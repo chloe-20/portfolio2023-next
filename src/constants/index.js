@@ -1,3 +1,4 @@
+import about from "../assets/img/about.jpg";
 import port01 from "../assets/img/port01.jpg";
 import port02 from "../assets/img/port02.jpg";
 import port03 from "../assets/img/port03.jpg";
@@ -35,6 +36,7 @@ export const headerNav = [
 export const introText = {
   title: "MARKUP DEVELOPER",
   desc: ["TALENT IS", "FOUND AT THE END OF THE", "EFFORT"],
+  img: about,
 };
 
 export const skillText = [

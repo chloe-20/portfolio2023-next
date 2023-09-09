@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { headerNav } from "../constants";
 
 const Header = () => {
