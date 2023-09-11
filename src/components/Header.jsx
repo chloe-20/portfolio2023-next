@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { headerNav } from "../constants";
+import { headerNav } from "@/constants";
 
 const Header = () => {
   const [show, setShow] = useState(false);
