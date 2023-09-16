@@ -8,12 +8,12 @@ import Site from "@/components/Site";
 import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
 import Skip from "@/components/Skip";
-import lenis from "@/utils/lenis";
+import smooth from "@/utils/smooth";
 import link from "@/utils/link";
 
 export default function Home() {
   useEffect(() => {
-    lenis();
+    smooth();
     link();
   }, []);
 
